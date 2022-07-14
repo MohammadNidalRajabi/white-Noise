@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+padding: 0;
+font-family:'Roboto',sans-serif;
+
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pexels-zukiman-mohamad-21787.jpg);
+    
+   
+    background-position: center;
+    background-size:cover ;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+.logo
+{
+    width: 150px;
+    cursor: pointer;
+
+}
+.menu-icon
+{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.nav
+{
+flex: 1;
+text-align: right;
+
+}
+
+.nav ul li
+{
+list-style: none;
+margin-left: 60px;
+display: inline-block;
+
+}
+.nav ul li a
+{
+color: #fff;
+text-decoration: none;
+font-size:15px ;
+
+
+}
+.row    
+{
+    display: flex;
+     height: 80%;
+     align-items: center;
+
+}
+.col
+{
+    flex-basis: 50%;
+}
+h1
+{
+    color: #fff;
+    font-size: 200%;
+
+}
+p
+{
+    color: #fff;
+    font-size: 100%;
+    line-height: 20px;
+
+
+}
+button
+{
+    width: 200px;
+    
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    border: none;
+    transition: transform 0.5s;
+
+    
+}
+.card
+{
+    width: 200px;
+    height:230px ;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+    box-shadow: rgb(95, 168, 251) 5px;
+
+
+
+}
+.card1
+{
+    background-image: url(images/Fan.gif);
+
+}
+.card2
+{
+    background-image: url(images/Fire.gif);
+
+}
+.card3
+{
+    background-image: url(images/Nigth.gif);
+
+}
+.card4
+{
+    background-image: url(images/coffe.gif);
+
+}
+.card5
+{
+    background-image: url(images/Triffic.gif);
+
+}
+.card6
+{
+    background-image: url(images/Brown.gif);
+
+}
+.card:hover
+{
+    transform: translateY(-10px);
+}
+h5
+{
+    color: #fff;
+    text-shadow:0 0 5px #000 ;
+    
+    
+
+    
+
+}
+.card p{
+    font-size: 8px;
+    text-shadow:0 0 5px #000 ;
+
+}
+button:hover
+{
+    transform: translateX(-5px);
+    transform: translateY(-5px);
+
+}
+.col audio
+{
+    width: 50%;
+}
+audio
+{
+    width: 100%;
+}
+    
+/*audio::-webkit-media-controls-mute-button
+
+audio::-webkit-media-controls-play-button
+
+audio::-webkit-media-controls-timeline-container
+
+audio::-webkit-media-controls-current-time-display
+
+audio::-webkit-media-controls-time-remaining-display
+
+audio::-webkit-media-controls-timeline
+
+audio::-webkit-media-controls-volume-slider-container
+
+audio::-webkit-media-controls-volume-slider
+
+audio::-webkit-media-controls-seek-back-button
+
+audio::-webkit-media-controls-seek-forward-button
+
+audio::-webkit-media-controls-fullscreen-button
+
+audio::-webkit-media-controls-rewind-button
+
+audio::-webkit-media-controls-return-to-realtime-button
+
+audio::-webkit-media-controls-toggle-closed-captions-button*/
+
